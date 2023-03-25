@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body{
+    background: #000235;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container{
+    border: 2px solid red;
+    margin: 90px auto;
+    width: fit-content;
+}
+
+.input-field{
+    display: flex;
+    justify-content: center;
+}
+
+.c-value,
+.f-value,
+.k-value{
+    margin: 0 8px;
+    border-radius: 10px;
+    background: #744E99;
+}
+
+input[type='number']{
+    background: transparent;
+    outline: none;
+    border: none;
+}
