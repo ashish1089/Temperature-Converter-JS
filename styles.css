@@ -19,14 +19,13 @@ h1{
 }
 
 .container{
-    /* border: 2px solid red; */
     margin: 90px auto;
     width: fit-content;
 }
 
 .input-field{
     display: flex;
-    /* justify-content: center; */
+    margin-top: 2rem;
 }
 
 .c-value,
@@ -70,4 +69,14 @@ input[type='number']:focus {
 
 input[type='number']:hover {
     border: 2px solid #b68ae1;
+}
+
+@media (max-width:600px){
+    .input-field{
+        flex-direction: column;
+    }
+    .f-value {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
