@@ -19,14 +19,14 @@ h1{
 }
 
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 90px auto;
     width: fit-content;
 }
 
 .input-field{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .c-value,
@@ -37,8 +37,37 @@ h1{
     background: #744E99;
 }
 
+.text {
+    height: 54px;
+    text-align: center;
+    background: #3b284e;
+    border: none;
+    border-radius: 0 0  10px 10px;
+    padding: 5px;
+    font-size: 2rem;
+    color: #9e81ba;
+}
+
 input[type='number']{
     background: transparent;
     outline: none;
     border: none;
+    height: 80px;
+    width: 100%;
+    font-size: 2rem;
+    padding: 12px 10px;
+    color: #ebc3f4;
+    border-radius: 10px 10px 0 0;
+}
+
+input[type='number']::placeholder{
+    color: #fff;
+}
+
+input[type='number']:focus {
+    border: 2px solid #b68ae1;
+}
+
+input[type='number']:hover {
+    border: 2px solid #b68ae1;
 }
